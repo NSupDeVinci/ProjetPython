@@ -5,7 +5,7 @@ PORT=5000
 
 init:
 	@echo "Installing dependencies..."
-	pip install -r requirements.txt
+	pip install -r /ProjetPython/health-calculator-service/requirements.txt
 
 run:
 	@echo "Running the Flask app..."
