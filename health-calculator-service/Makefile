@@ -5,7 +5,8 @@ PORT=5000
 
 init:
 	@echo "Installing dependencies..."
-	pip install -r ./requirements.txt
+	pip freeze > requirements.txt
+	pip install -r requirements.txt
 
 run:
 	@echo "Running the Flask app..."
